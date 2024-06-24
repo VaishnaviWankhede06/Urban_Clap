@@ -1,0 +1,595 @@
+.topnav{
+    display: flex;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    height: 90px;
+    align-items: center;
+    
+}
+.topnav .urban_cmpny{
+    display: flex;
+    width: 40px;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+.topnav .urban_cmpny img{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 7px;
+}
+.topnav .urban_cmpny p{
+    font-size:20px ;
+    margin: 0;
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.topnav .select_location{
+    width: 340px;
+    background-color: white;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    margin-left: 110px;
+    border: 1px solid gray;
+}   
+.topnav .select_location i{
+    color: gray;
+    margin-left: 15px;
+    margin-right: 8px;
+}
+.topnav .select_location select{
+    width: 280px;
+    height: 45px;
+    background-color: white;
+    color: gray;
+    border: none;
+}
+.topnav .search_service{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 10px;
+    border: 1px solid gray;
+}
+.topnav .search_service i{
+    color: darkslategray;
+    margin-left: 15px;
+    margin-right: 8px;
+}
+.topnav .search_service input{
+    width: 350px;
+    height: 45px;
+    color: gray;
+    font-size: 13px;
+    border: none;
+}
+.topnav button{
+    width: 100px;
+    background-color: white;
+    height: 50px;
+    margin-left: 120px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.home_services{
+    display: flex;
+    margin-top: 40px;
+}
+
+.home_services .left_part{
+    width: 480px;
+    margin-left: 50px;
+    padding: 0;
+    background:none;
+}
+
+
+.home_services .left_part .home_text p{
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+.home_services .left_part .left_lower{
+    width: 480px;
+    background:none;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 27px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    border: 0.5px solid gray;
+}
+.home_services .left_part .left_lower #looking_for{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+.home_services .left_part .left_lower .upper_part{
+    display: flex;
+    padding-left: 20px;
+    
+}
+.home_services .left_part .left_lower .upper_part .women_salon{
+    width: 135px;
+    background:none;
+    margin-right: 15px;
+}
+.home_services .left_part .left_lower .upper_part .women_salon .women_salon_img{
+    width: 100%;
+    border-radius: 8px;
+    height: 70px;
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+}
+.home_services .left_part .left_lower .upper_part .women_salon img{
+   
+    border-radius: 8px;
+    height: 70px;
+    background: transparent;
+    background-color: transparent;
+}
+.home_services .left_part .left_lower .upper_part .women_salon .p_element{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.home_services .left_part .left_lower .upper_part .women_salon .p_element1 p{
+    font-size: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+.home_services .left_part .left_lower .lower_part  #car-penter{
+    background-color:whitesmoke;
+}
+.home_services .left_part .left_lower .middle_part{
+    display: flex;
+    padding-left: 20px;
+    margin-top: 13px;
+}
+.home_services .left_part .left_lower .middle_part .cleaning{
+    width: 210px;
+    
+    margin-right: 15px;
+    border-radius: 8px;
+    height: 70px;
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: right;
+    align-items: center;
+}
+.home_services .left_part .left_lower .middle_part .cleaning img{
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.home_services .left_part .left_lower .middle_part .cleaning .p_element2{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.home_services .left_part .left_lower .middle_part .cleaning .p_element2 p{
+    font-size: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.home_services .left_part .left_lower .lower_part{
+    display: flex;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+.home_services .left_part .left_lower .lower_part .water_purifier{
+    width: 210px;
+    
+    margin-right: 15px;
+    border-radius: 8px;
+    height: 70px;
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: right;
+    align-items: center;
+}
+.home_services .left_part .left_lower .lower_part .water_purifier img{
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.home_services .left_part .left_lower .lower_part .water_purifier .p_element3{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.home_services .left_part .left_lower .lower_part .water_purifier .p_element3 p{
+    font-size: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+.home_services .left_part .rating{
+    width: 490px;
+    background:none;
+    display: flex;
+    
+}
+.home_services .left_part .rating .lr_rating{
+    display: flex;
+    align-items: center;
+}
+.home_services .left_part .rating .cls_icon i{
+    font-size: 30px;
+    margin-right: 20px;
+}
+.home_services .left_part .rating .cls_text .number{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.home_services .left_part .rating .cls_text .text{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategray;
+    margin-top: 0;
+    padding-top: 0;
+}
+.home_services .left_part .rating #id_lr_rating1{
+    margin-left: 20px;
+}
+.home_services .left_part .rating #id_lr_rating2{
+    margin-left: 80px;
+}
+.home_services .right_part{
+    display: flex;
+    width: 605px;
+    height: 630px;
+    margin-left: 140px;
+    border-radius: 15px;
+}
+.home_services .right_part .rleft_p{
+    width: 298px;
+    margin-right: 9px;
+}
+.home_services .right_part .rright_p{
+    width: 298px;
+    
+}
+.home_services .right_part #f_img{
+        height: 350px;
+        margin-bottom: 8px;
+        width:100% ;
+        border-top-left-radius: 15px;
+}
+.home_services .right_part #s_img{
+        height: 292px;
+        width: 100%;
+        border-bottom-left-radius: 15px;
+}
+.home_services .right_part #t_img{
+      width: 100%;
+      height: 250px;
+      margin-bottom: 8px;
+      border-top-right-radius: 15px;
+}
+.home_services .right_part #l_img{
+       width: 100%;
+       height: 380px;
+       border-bottom-right-radius: 15px;
+}
+.home_services .right_part img{
+   width: 300px;
+}
+.card_collection{
+    display: flex;
+    width:93%;
+    margin-left: 20px;
+    margin-right: 20px;
+    background:none;
+    
+    margin: 40px;
+    height: 230px;
+}
+
+.card_collection .card{
+    width: 395px;
+    height: 230px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.19);
+    transition: 0.5s;
+}
+.card:hover{
+    transform:scale(1.1);
+    
+}
+.card_collection #id_card2{
+    margin-left: 25px;
+}
+.card_collection #id_card3{
+    margin-left: 25px;
+}
+.card_collection .card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+   
+}
+.card_collection .card .savings1{
+    position: absolute;
+    top: 0px;
+    background-color:none;
+    width: 260px;
+    margin-left: 20px;
+}
+.card_collection .card .savings1 #elec_p_id{
+    font-size: 23px;
+    margin-bottom: 0;
+    font-weight: 800;
+    margin-top: 40px;
+}
+.card_collection .card .savings1 #ac_p_id{
+    color: whitesmoke;
+    font-size:17px ;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.card_collection .card .savings1 .savings_p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card_collection .card .savings1 button{
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0,0,0,0.60);
+    border-radius: 5px;
+    height: 35px;
+}
+.card_collection .card .savings2{
+    position: absolute;
+    top: 0px;
+    background-color:none;
+    width: 240px;
+    margin-left: 20px;
+}
+.card_collection .card .savings2 .sale_end{
+    background-color: rgb(6, 85, 6);
+    width: 170px;
+    margin-top: 0;
+    padding-top: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-left: 15px;
+    height: 25px;
+}
+.card_collection .card .savings2 .sale_end #id_sale_ends{
+    margin-top: 0;
+    padding-top: 0;
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card_collection .card .savings2 #water_p_id{
+    font-size: 20px;
+    margin-bottom: 35px;
+    font-weight: 800;
+    margin-top: 40px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.card_collection .card .savings2 button{
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0,0,0,0.60);
+    border-radius: 5px;
+    height: 35px;
+}
+.card_collection .card .savings3{
+    position: absolute;
+    top: 0px;
+    background-color:rgb(24, 139, 24,0.50);
+    width: 200px;
+    margin-left:0;
+    height: 100%;
+}
+.card_collection .card .savings3 #clean_p_id{
+    font-size: 25px;
+    margin-bottom: 25px;
+    font-weight: 800;
+    margin-top: 40px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+.card_collection .card .savings3 button{
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0,0,0,0.60);
+    border-radius: 5px;
+    height: 35px;
+    margin-left: 20px;
+}
+
+.bottom_part{
+    margin-top: 150px;
+    background-color:rgb(238, 233, 243);
+    margin-left: 0;
+    padding-top: 50px;
+}
+.bottom_part .urban_cmpny{
+    display: flex;
+    width: 40px;
+    margin-right: 100px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+   
+}
+.bottom_part .urban_cmpny img{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 7px;
+}
+.bottom_part .urban_cmpny p{
+    font-size:20px ;
+    margin: 0;
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.bottom_part .all_lists{
+    display: flex;
+    margin-left: 70px;
+}
+.bottom_part .all_lists h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.bottom_part .all_lists p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: gray;
+}
+.bottom_part .all_lists .list2{
+    margin-left: 130px;
+}
+.bottom_part .all_lists .list3{
+    margin-left: 130px;
+}
+.bottom_part .all_lists .list4{
+    margin-left: 130px;
+    
+}
+.bottom_part .all_lists .list4 .all_icons{
+    margin-bottom: 20px;
+}
+.bottom_part .all_lists .list4 .all_icons i{
+    font-size: 20px;
+    margin-right: 20px;
+    transition: 1s;
+}
+.bottom_part .all_lists .list4 .all_icons i:hover{
+    transform: scale(1.4);
+}
+
+.bottom_part .all_lists .list4 .add_img{
+    display: block;
+    background:none;
+    width: 120px;
+}
+.bottom_part .all_lists .list4 .add_img img{
+    width: 120px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.bottom_part #rights{
+    margin-top: 80px;
+    font-size: 12px;
+    color:gray;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#m_b_s{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    font-weight: 400;
+    margin-top: 70px;
+}
+.booked_service{
+    display: flex;
+    
+    width: 93%;
+    margin-left: 40px;
+}
+.booked_service #id_bookcard2{
+    margin-left: 17px;
+    
+}
+.booked_service #id_bookcard3{
+    margin-left: 17px;
+}
+.booked_service #id_bookcard4{
+    margin-left: 17px;
+}
+.booked_service #id_bookcard5{
+    margin-left: 17px;
+}
+.booked_service .bookcard{
+    position: relative;
+}
+.booked_service .bookcard:hover{
+    transform: scale(1.1);
+}
+.booked_service .bookcard .cls_off{
+    background-color: rgb(7, 77, 7);
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin-left: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.booked_service .bookcard .cls_off p{
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.booked_service .bookcard img{
+    border-radius: 8px;
+    
+}
+
+.booked_service .bookcard p{
+    font-size: 16px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.booked_service .bookcard .icn{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}  
+.booked_service .bookcard .icn i{
+    font-size: 13px;
+    color: gray;
+    
+    margin-right: 5px;
+    margin-top: 0;
+}
+.booked_service .bookcard .icn p{
+    font-size: 13px;
+    color: gray;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+}
+.booked_service .bookcard .icn1{
+    display: flex;
+    align-items: center;
+}
+.booked_service .bookcard .icn1 i{
+    font-size: 13px;
+    color: gray;
+   
+}
+.booked_service .bookcard .icn1 p{
+    font-size: 13px;
+    color: gray;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    
+}
+.booked_service .bookcard .icn1 .rs{
+    margin-right: 5px;
+}
